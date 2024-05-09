@@ -9,11 +9,6 @@ import org.springframework.stereotype.Service;
  * @author 李冠锋
  * @date 2024/5/8 下午9:06
  */
-@Service
-public class StudentService {
-    @Autowired
-    private Student student;
-    public Student getStudent() {
-        return student;
-    }
+public interface StudentService {
+    public Student getStudent();
 }
